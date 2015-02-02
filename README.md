@@ -10,14 +10,14 @@ import yds
 
 tasks = [
     # task name (can have any type), release time, deadline, execution time
-    Task("t1",  0, 17,  5),
-    Task("t2",  1, 11,  3),
-    Task("t3", 12, 20,  4),
-    Task("t4",  7, 11,  2),
-    Task("t5",  1, 20,  4),
-    Task("t6", 14, 20, 12),
-    Task("t7", 14, 17,  4),
-    Task("t8",  1,  7,  2)
+    yds.Task("t1",  0, 17,  5),
+    yds.Task("t2",  1, 11,  3),
+    yds.Task("t3", 12, 20,  4),
+    yds.Task("t4",  7, 11,  2),
+    yds.Task("t5",  1, 20,  4),
+    yds.Task("t6", 14, 20, 12),
+    yds.Task("t7", 14, 17,  4),
+    yds.Task("t8",  1,  7,  2)
 ]
 
 scheduling = yds.calc_scheduling(tasks)
